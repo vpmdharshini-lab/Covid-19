@@ -94,11 +94,15 @@ Total Deaths	654,036
 Total Recovered	9,468,087
 Visualizations
 1. Top 10 Affected Countries
+<img width="736" height="671" alt="Screenshot 2026-06-04 205110" src="https://github.com/user-attachments/assets/24b87cc8-f175-48ef-a49a-96e8edb1f0c5" />
+
 
 A bar chart showing countries with the highest number of confirmed cases.
 
 top_countries.plot(kind="bar")
 2. COVID-19 Case Distribution
+<img width="486" height="526" alt="Screenshot 2026-06-04 205121" src="https://github.com/user-attachments/assets/82c2bc9c-b29b-4df7-ad92-31ada31cca5f" />
+
 
 Pie chart displaying proportions of:
 
@@ -107,11 +111,14 @@ Deaths
 Recovered Cases
 totals.plot(kind="pie")
 3. Confirmed Cases vs Deaths
+<img width="734" height="578" alt="Screenshot 2026-06-04 205131" src="https://github.com/user-attachments/assets/7b7545f1-cfbc-4d01-be1a-a25641d75d27" />
+
 
 Scatter plot showing the relationship between confirmed cases and deaths.
 
 sns.scatterplot(x="Confirmed", y="Deaths")
 4. Correlation Heatmap
+<img width="691" height="576" alt="Screenshot 2026-06-04 205143" src="https://github.com/user-attachments/assets/234dc9ba-0749-4eab-b9c1-4dd9e3265132" />
 
 Displays correlations among:
 
@@ -121,6 +128,8 @@ Recovered
 Active
 sns.heatmap(corr, annot=True)
 5. COVID-19 Trend Analysis
+<img width="789" height="578" alt="Screenshot 2026-06-04 205153" src="https://github.com/user-attachments/assets/db74d0ee-232d-4618-a76e-e9270842dd17" />
+
 
 Plots confirmed cases over time if a Date column exists.
 
